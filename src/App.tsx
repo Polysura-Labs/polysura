@@ -47,8 +47,8 @@ function App() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
-              <Brain className="h-8 w-8 text-purple-500" />
-              <span className="text-xl font-bold">Polysura</span>
+            <img src="/plogo.png" alt="Logo" className="h-8 w-8" />
+              <span className="text-xl font-bold">Polysura Labs</span>
             </div>
             <div className="hidden md:flex space-x-8">
               <a href="#features" className="hover:text-purple-400 transition-colors">Features</a>
