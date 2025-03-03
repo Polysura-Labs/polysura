@@ -120,13 +120,13 @@ function App() {
           <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-blue-600/20 rounded-full filter blur-3xl"></div>
         </div>
         <div className="relative z-10">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold m6- mt-12">
             AI-Powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Decentralized</span> Ecosystem
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
             Combining AI, Web3, DeFi, and community-driven innovation into a single powerful platform
           </p>
-          <div className="flex flex-col md:flex-row justify-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center gap-4 ">
             <button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full font-medium transition-colors flex items-center justify-center">
               Get Started <ArrowRight className="ml-2 h-5 w-5" />
             </button>
@@ -138,7 +138,7 @@ function App() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="container mx-auto px-6 py-20">
+      <section id="features" className="container mx-auto px-6 py-15">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">Core Features</h2>
         <p className="text-gray-400 text-center mb-16 max-w-2xl mx-auto">
           Our platform combines cutting-edge technologies to create a seamless ecosystem for Web3 innovation
