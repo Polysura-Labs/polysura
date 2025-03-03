@@ -304,17 +304,18 @@ function App() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="bg-gray-800/50 py-20">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <StatCard value="$10M+" label="Total Value Locked" />
-            <StatCard value="50+" label="AI Models" />
-            <StatCard value="10,000+" label="Community Members" />
-            <StatCard value="25+" label="Partner Projects" />
-          </div>
-        </div>
-      </section>
+  {/* Year 1 Projections Section */}
+<section className="bg-gray-800/50 py-20">
+  <div className="container mx-auto px-6">
+    <h2 className="text-center text-3xl font-bold text-white mb-10">Year 1 Projections</h2>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <StatCard value="$50M+" label="Projected TVL" />
+      <StatCard value="200+" label="AI Models Deployed" />
+      <StatCard value="100,000+" label="Expected Community Members" />
+      <StatCard value="100+" label="Strategic Partnerships" />
+    </div>
+  </div>
+</section>
 
       {/* Community Section */}
       <section id="community" className="container mx-auto px-6 py-20">
