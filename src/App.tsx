@@ -126,6 +126,7 @@ function App() {
           <h1 className="text-5xl md:text-6xl font-bold m6- mt-12">
             AI-Powered <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Decentralized</span> Ecosystem
           </h1>
+          <br />
           <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto">
             Combining AI, Web3, DeFi, and community-driven innovation into a single powerful platform
           </p>
