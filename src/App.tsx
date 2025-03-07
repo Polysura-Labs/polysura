@@ -57,9 +57,12 @@ function App() {
               <a href="#community" className="hover:text-purple-400 transition-colors">Community</a>
             </div>
             <div className="flex items-center space-x-4">
-              <button className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-medium transition-colors">
-                Launch App
-              </button>
+            <a href="https://github.com/Polysura-Labs" target="_blank" rel="noopener noreferrer">
+  <button className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-full font-medium transition-colors">
+    Github
+  </button>
+</a>
+
               <button 
                 className="md:hidden text-white p-2 rounded-md hover:bg-gray-800 transition-colors"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
